@@ -171,7 +171,7 @@
 
     <div class="input-container">
         <div class="input-box">
-            <textarea id="userInput" rows="2" readonly>I like anime comedy movies, or Marvel superhero movies. Can you recommend one for me?</textarea>
+            <textarea id="userInput" rows="2" readonly>I am bored. I want to watch a movie. I like anime comedy movies, or Marvel superhero movies. Give me some ideas. </textarea>
             <button id="sendBtn" onclick="sendMessage()">
                 <svg viewBox="0 0 24 24">
                     <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
@@ -187,7 +187,7 @@
     const sendBtn = document.getElementById('sendBtn');
 
     // 固定的 AI 专属回答
-    const fixedAIResponse = "As you like animated comedies and Marvel superhero films, I highly recommend watching 'Spider-Man: Into the Spider-Verse' tonight. Enjoy the movie!";
+    const fixedAIResponse = "As you like animate comedies and Marvel superhero films, I highly recommend watching 'Spider-Man: Into the Spider-Verse' tonight. Enjoy the movie!";
 
     function sendMessage() {
         const text = userInput.value;
